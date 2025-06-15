@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+
+<div class="left">
+    <a href="/">Dhruv Mittal</a>
+</div>
+<div class="right">
+    <a href="https://github.com/its-dhruv-here" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+    </a>
+    <a href="https://www.linkedin.com/in/its-dhruv-here/" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+    </a>
+    <a href="https://x.com/its_dhruv_here_" target="_blank">
+        <i class="fa-brands fa-twitter"></i>
+        <span>X</span>
+    </a>
+    <a href="mailto:mittal2006dhruv@gmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+    </a>
+</div>
+
+</nav>
+
+<main>
+
+<!-- SECTION 1 : Hero -->
+ <section class="hero-section">
+    <div class="text">
+        <h2>Hi,I'm Dhruv 👋</h2>
+        <p>Hi, I’m Dhruv Mittal, a sophomore in Computer Engineering, still trying to figure life out. Most days I’m learning new things, forgetting half, and pretending I’ve got it all together. I overthink, sleep less, and laugh through the stress. I believe in going with the flow — even if the flow feels like a chaotic mess. But hey, that’s how character is built… or so I tell myself.
+        </p>
+        
+        <div class="links">
+
+            <a href="#skills">
+                <i class="fa-solid fa-code"></i>
+                <span>Skills</span>
+            </a>    
+
+            <a href="#contact">
+                <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+            </a>
+            
+        </div>
+
+    </div>
+
+    <div class="headshot">
+        <img src="/dhruvuvuvuvuv.jpg" alt="dhruv headshot">
+    </div>
+
+ </section>
+
+ <!-- SECTION 2 : Skills -->
+ <section id="skills" class="skills-section">
+    <h2>Skills</h2>
+    <div class="text">
+        Still learning — mostly by trial, error, and mild emotional damage. I break things, then Google how to fix them. Not an expert yet, but at least I know how to pretend to be one in front of my code. Slow progress, but it’s better than no progress… right?
+    </div>
+
+    <div class="cells">
+         <div class="cell">
+            <img src="/html-logo.webp" alt="HTML logo">
+            <span>HTML</span>
+         </div>
+
+         <div class="cell">
+            <img src="/css-logo.webp" alt="CSS logo">
+            <span>CSS</span>
+         </div>
+
+         <div class="cell">
+            <img src="/javascript-logo.webp" alt="">
+            <span>JS</span>
+         </div>
+
+    </div>
+
+
+ </section> 
+
+ <!-- SECTION 3 : Coffee -->
+ <section id="coffee" class="coffee-section">
+    <h2>Still Figuring It Out 🌀</h2>
+    
+    <div class="group">
+        <div class="person-details">
+            <!-- <img src="/bmc_qr.png" alt=""> -->
+            <a href="https://buymeacoffee.com/its_dhruv_here" target="_blank" rel="noopener noreferrer">
+                <img src="/bmc_qr.png" alt="Buy me a coffee">
+              </a>
+
+            <p>Dhruv Mittal</p>
+            <p>If this site crashes, blame the coffee shortage.</p>
+        </div>
+
+        <div class="text">
+            I thought learning to code would be all cool animations and big projects. Instead, I mostly stare at the screen wondering why a semicolon broke everything. I spend 90% of my time Googling errors and 10% pretending I understand Stack Overflow. It’s confusing, frustrating, and somehow… still fun.
+            <br>
+            If you think that’s brave, feel free to mentally <a href="https://coff.ee/its_dhruv_here" target="_blank" rel="noopener noreferrer">send me a coffee ☕️.</a> I run on caffeine and blind hope.
+        </div>
+    </div>
+
+ </section>
+
+ <!-- SECTION 4 : Contact -->
+ <section id="contact" class="contact-section">
+    <h2>Break the Loop — Say Hello! 👋</h2>
+    <div class="group">
+        <div class="text">
+            Feel free to reach out if you have any questions, ideas, or just want to connect. I’m always open to meaningful conversations and opportunities.
+        </div>
+
+        <!-- <form>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+
+            <label for="email">Your Email</label>
+            <input type="text" id="email">
+
+            <label for="message">Message</label>
+            <textarea id="message"></textarea>
+
+            <button type="submit">Send Message</button>
+        </form> -->
+        <form action="https://formspree.io/f/xgvyyapa" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+          
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          
+            <!-- Honeypot field to catch bots -->
+            <input type="text" name="_gotcha" style="display: none;">
+          
+            <!-- Optional: Redirect after successful submission -->
+            <input type="hidden" name="_next" value="https://your-portfolio.com/thank-you.html">
+          
+            <button type="submit">Send Message</button>
+          </form>
+    </div>
+ </section>
+ 
+</main>
+
+</body>
+</html>
