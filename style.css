@@ -1,8 +1,24 @@
- :root {
+ /* :root {
     --text-color : #1a1c20 ;
     --link-color : #4a76ee ;
     --background-color : #eeeff1 ;
- }
+ } */
+
+ 
+  /* :root {
+    --text-color: #f1f1f1;
+    --link-color: #4a90e2;
+    --background-color: #121212;
+} */
+
+:root {
+    --text-color: #1e1e1e;              /* Soft dark text */
+    --link-color: #4a76ee;              /* Gentle blue links */
+    --background-color: #f5f7fa;        /* Light off-white background */
+}
+
+
+
 
  * {
     margin: 0;
@@ -22,6 +38,10 @@
     margin: 0 auto;
  }
 
+
+
+
+
  a {
     color : var(--link-color);
     text-decoration: none;
@@ -30,12 +50,16 @@
  /* NAVBAR */
 
  nav {
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 50px;
     height: 80px;
  }
+
+
+
 
  /* nav .left a {
     color: var(--text-color);
@@ -107,6 +131,9 @@ nav .right a span{
     align-items: center ;
     gap: 40px;
 }
+
+
+
 
 .hero-section h2{
     font-size: 45px;
@@ -481,3 +508,29 @@ body {
     filter: brightness(1.08);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
+
+
+.footer {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .footer-text {
+    font-size: 16px;
+    transition: all 0.3s ease;
+    display: inline-block;
+  }
+  
+  .footer-text:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+  }
+
+
+
+
+
+
+
